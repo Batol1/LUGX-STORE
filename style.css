@@ -1,0 +1,278 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    /* يمنع التمرير الأفقي */
+}
+
+.header {
+    background-color: blue;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.btn {
+    background-color: #EE626B;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: #ffffff;
+}
+
+.logo {
+    width: 100px;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 15px;
+}
+
+
+.header-links a:hover {
+    background-color: #1A7FF9;
+    transition: .6s;
+
+}
+
+
+.header-links button {
+    background-color: #EE626B;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: #ffffff;
+}
+
+.header-links button:hover {
+    background-color: #f285Bc;
+    transition: .5s;
+
+}
+
+/* landing-page */
+.landing-page {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 0 0 50px 50px;
+}
+
+.lanfing-page-left-section {
+    width: 450px;
+}
+
+.landing-page-search input {
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.landing-page-search button {
+    position: absolute;
+    left: 200px;
+    height: 32px;
+    background-color: #EE626B;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: #ffffff;
+}
+
+.landing-page-image-container img {
+    border-radius: 20px;
+    width: 300px;
+}
+
+/* Trending Section*/
+.trending-container {
+    padding: 25px 50px;
+
+}
+
+.trending-container span {
+    color: #EE626B;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.trenfing-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trenfing-header h1 {
+    margin-top: 0;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 25px;
+}
+
+.card-info img {
+    width: 50px;
+}
+
+.card {
+    width: 300px;
+    background-color: #EEEEEE;
+    border-radius: 20px;
+
+}
+
+.card .thumb {
+    border-radius: 20px 20px 0 0;
+
+}
+
+.trending-cards {
+    padding: 25px 50px;
+    display: flex;
+    gap: 12px;
+
+}
+
+.trenfing-header button {
+    height: 50px;
+    width: 110px;
+}
+
+/* MOST PLAYRD */
+
+.most-played-container {
+    background-color: #EEEEEE;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 25px 50px;
+    border-radius: 100px;
+
+}
+
+.most-played-container span {
+    color: #EE626B;
+
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.most-played-header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.most-played-header h1 {
+    margin: 0;
+}
+
+.most-played-cards {
+    display: flex;
+    gap: 12px;
+
+}
+
+.most-played-card {
+    width: 200px;
+    text-align: center;
+}
+
+.most-played-card h4 {
+    color: #9e9797;
+}
+
+.most-played-card img {
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.most-played-card button {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+
+.most-played-card button:hover {
+    background-color: #703f57;
+    transition: .5s;
+}
+
+/* TOP GAMES */
+
+.top-catagory-info {
+    text-align: center;
+
+}
+
+.top-catagory-info h4 {
+    margin-top: 100px;
+    margin-bottom: 0;
+    color: #EE626B;
+
+}
+
+.top-catagory-info h1 {
+    margin-top: 0px;
+
+}
+
+.top-catagory-cards {
+    padding: 25px 50px;
+    gap: 25px;
+    display: flex;
+}
+
+.top-catagory-card {
+    background-color: #1A7FF9;
+    width: 230px;
+    height: 230px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px 20px 20px 20px;
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+    margin-bottom: 100px;
+}
+
+.top-catagory-card .name {
+    padding-top: 10px;
+}
+
+.top-catagory-card img {
+    width: 230px;
+    padding-top: 10px;
+    height: 230px;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+.top-catagory-card:hover {
+    transform: scale(1.1);
+}
